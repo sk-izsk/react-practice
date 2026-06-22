@@ -1,0 +1,49 @@
+import { ApiOutlined } from '@ant-design/icons'
+import Layout from 'antd/es/layout'
+import Menu, { type MenuProps } from 'antd/es/menu'
+import React, { useState } from 'react'
+import { Link, useLocation } from 'react-router'
+
+interface Props {}
+
+const { Sider } = Layout
+
+const items: MenuProps['items'] = [
+  {
+    key: '/crud',
+    label: <Link to="/crud">CRUD</Link>,
+    icon: <ApiOutlined />,
+    children: [
+      {
+        key: '/crud/table',
+        label: <Link to="/crud/table">table</Link>,
+      },
+    ],
+  },
+]
+export const SideBar: React.FC<Props> = () => {
+  const [collapsed, setCollapsed] = useState(false)
+  const { pathname } = useLocation()
+  return (
+    <Sider
+      theme="light"
+      collapsible
+      collapsed={collapsed}
+      onCollapse={(value: boolean) => setCollapsed(value)}
+      style={{
+        position: 'sticky',
+        top: 0,
+        height: '100vh',
+        alignSelf: 'flex-start',
+      }}
+    >
+      <Menu
+        // theme="dark"
+        selectedKeys={[pathname]}
+        // defaultSelectedKeys={['1']}
+        mode="inline"
+        items={items}
+      />
+    </Sider>
+  )
+}
