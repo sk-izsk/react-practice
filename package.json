@@ -16,6 +16,7 @@
     "@reduxjs/toolkit": "^2.12.0",
     "@tanstack/react-query": "^5.101.0",
     "@tanstack/react-query-devtools": "^5.101.0",
+    "@tanstack/react-virtual": "^3.14.3",
     "ahooks": "^3.9.7",
     "antd": "^6.4.4",
     "ky": "^2.0.2",
@@ -24,6 +25,7 @@
     "react-dom": "^19.2.6",
     "react-redux": "^9.3.0",
     "react-router": "^8.0.1",
+    "react-virtuoso": "^4.18.7",
     "zustand": "^5.0.14"
   },
   "devDependencies": {

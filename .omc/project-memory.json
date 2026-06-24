@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1781571017828,
+  "lastScanned": 1782303583946,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -45,9 +45,9 @@
     "buildCommand": "npm run build",
     "testCommand": null,
     "lintCommand": "npm run lint",
-    "devCommand": "npm run dev",
+    "devCommand": "npm run start",
     "scripts": {
-      "dev": "vite",
+      "start": "vite",
       "build": "tsc -b && vite build",
       "preview": "vite preview",
       "lint": "oxlint .",
@@ -59,7 +59,7 @@
     "namingStyle": null,
     "importStyle": null,
     "testPattern": null,
-    "fileOrganization": null
+    "fileOrganization": "type-based"
   },
   "structure": {
     "isMonorepo": false,
@@ -68,15 +68,29 @@
       "public",
       "src"
     ],
-    "gitBranches": null
+    "gitBranches": {
+      "defaultBranch": "dev",
+      "branchingStrategy": null
+    }
   },
   "customNotes": [],
   "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 3,
+      "lastAccessed": 1782303583786,
+      "keyFiles": [
+        "favicon.svg",
+        "icons.svg",
+        "index.html"
+      ]
+    },
     "public": {
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1781571017717,
+      "lastAccessed": 1782303583787,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -85,24 +99,44 @@
     "src": {
       "path": "src",
       "purpose": "Source code",
-      "fileCount": 4,
-      "lastAccessed": 1781571017717,
+      "fileCount": 5,
+      "lastAccessed": 1782303583793,
       "keyFiles": [
-        "App.css",
         "App.tsx",
+        "AppLayout.tsx",
+        "AppProvider.tsx",
         "index.css",
         "main.tsx"
       ]
     },
-    "src/assets": {
-      "path": "src/assets",
+    "dist/assets": {
+      "path": "dist/assets",
       "purpose": "Static assets",
-      "fileCount": 3,
-      "lastAccessed": 1781571017737,
+      "fileCount": 2,
+      "lastAccessed": 1782303583793,
       "keyFiles": [
-        "hero.png",
-        "react.svg",
-        "vite.svg"
+        "index-ByAZfCzt.js",
+        "index-DGNrK5qb.css"
+      ]
+    },
+    "src/api": {
+      "path": "src/api",
+      "purpose": "API routes",
+      "fileCount": 1,
+      "lastAccessed": 1782303583794,
+      "keyFiles": [
+        "ky.jsonPlaceHolder.ts"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 11,
+      "lastAccessed": 1782303583795,
+      "keyFiles": [
+        "CommentDrawer.tsx",
+        "CommentFilterBar.tsx",
+        "EditCommentDrawer.tsx"
       ]
     }
   },
