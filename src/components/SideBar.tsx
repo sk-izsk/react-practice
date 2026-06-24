@@ -20,6 +20,17 @@ const items: MenuProps['items'] = [
       },
     ],
   },
+  {
+    key: '/tanstack',
+    label: <Link to="/tanstack">Tanstack</Link>,
+    icon: <ApiOutlined />,
+    children: [
+      {
+        key: '/tanstack/virtual',
+        label: <Link to="/tanstack/virtual">virtual</Link>,
+      },
+    ],
+  },
 ]
 export const SideBar: React.FC<Props> = () => {
   const [collapsed, setCollapsed] = useState(false)
