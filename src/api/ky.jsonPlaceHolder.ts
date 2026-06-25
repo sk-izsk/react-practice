@@ -3,14 +3,17 @@ import ky from 'ky'
 const DEFAULT_API_URL = 'https://jsonplaceholder.typicode.com'
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || DEFAULT_API_URL
 
-export const api = ky.create({
-  prefix: API_BASE_URL,
-  timeout: 5000,
-  headers: {
-    Accept: 'application/json',
-    'Content-Type': 'application/json',
-  },
-})
+export const baseApi = (url: string) =>
+  ky.create({
+    prefix: url,
+    timeout: 5000,
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+  })
+
+const api = baseApi(API_BASE_URL)
 
 const get = <T>(path: string) => api.get(path).json<T>()
 

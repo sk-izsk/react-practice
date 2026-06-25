@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import { jsonPlaceholderApi } from '../api/ky.jsonPlaceHolder'
-import type { User } from '../types/User'
+import type { User } from '../types/jsonPlaceHolder'
 
 interface UserState {
   users: User[]

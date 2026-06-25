@@ -12,7 +12,6 @@ const overScan = 10
 export const ManualVirtualizedList: React.FC<Props> = ({ numberOfItems }) => {
   const [scrollTop, setScrollTop] = useState(0)
   const startIndex = Math.max(Math.floor(scrollTop / itemHeight) - overScan)
-  const endIndex = Math.min(Math.floor((scrollTop + windowHeight) / itemHeight) + overScan)
   let renderedNodesCount = Math.floor(windowHeight / itemHeight + 2 * overScan)
   renderedNodesCount = Math.min(renderedNodesCount, numberOfItems - startIndex)
 
@@ -25,9 +24,6 @@ export const ManualVirtualizedList: React.FC<Props> = ({ numberOfItems }) => {
     return items
   }
 
-  const listItems = Array.from({ length: numberOfItems }, (_, index) => (
-    <ListItem key={index} index={index} itemHeight={itemHeight} />
-  ))
   return (
     <ul
       style={{

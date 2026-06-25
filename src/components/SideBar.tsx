@@ -31,7 +31,19 @@ const items: MenuProps['items'] = [
       },
     ],
   },
+  {
+    key: '/react-practice',
+    label: <Link to="/react-practice">React Practice</Link>,
+    icon: <ApiOutlined />,
+    children: [
+      {
+        key: '/react-practice/1',
+        label: <Link to="/react-practice/1">React Practice 1</Link>,
+      },
+    ],
+  },
 ]
+
 export const SideBar: React.FC<Props> = () => {
   const [collapsed, setCollapsed] = useState(false)
   const { pathname } = useLocation()
