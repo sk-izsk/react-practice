@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1782303583946,
+  "lastScanned": 1782424267328,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -79,7 +79,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 3,
-      "lastAccessed": 1782303583786,
+      "lastAccessed": 1782424267307,
       "keyFiles": [
         "favicon.svg",
         "icons.svg",
@@ -90,7 +90,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1782303583787,
+      "lastAccessed": 1782424267316,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -100,7 +100,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1782303583793,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
         "App.tsx",
         "AppLayout.tsx",
@@ -112,31 +112,42 @@
     "dist/assets": {
       "path": "dist/assets",
       "purpose": "Static assets",
-      "fileCount": 2,
-      "lastAccessed": 1782303583793,
+      "fileCount": 12,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
-        "index-ByAZfCzt.js",
-        "index-DGNrK5qb.css"
+        "CrudScreen-DvCJA7uw.js",
+        "CrudTableScreen-BTZhpkWW.js",
+        "ReactPractice1Screen-K53Jm-x8.js"
       ]
     },
     "src/api": {
       "path": "src/api",
       "purpose": "API routes",
-      "fileCount": 1,
-      "lastAccessed": 1782303583794,
+      "fileCount": 2,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
+        "ky.fakeStoreApi.ts",
         "ky.jsonPlaceHolder.ts"
       ]
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
-      "fileCount": 11,
-      "lastAccessed": 1782303583795,
+      "fileCount": 16,
+      "lastAccessed": 1782424267319,
       "keyFiles": [
         "CommentDrawer.tsx",
         "CommentFilterBar.tsx",
         "EditCommentDrawer.tsx"
+      ]
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1782424267321,
+      "keyFiles": [
+        "utils.ts"
       ]
     }
   },
