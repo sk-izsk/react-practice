@@ -140,6 +140,79 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "src/components/ProductTable.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1782352830734,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/columns/useProductsColumn.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1782352723223,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductTitleRenderer.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1782352723481,
+      "type": "file"
+    },
+    {
+      "path": "src/types/fakeStoreApi.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782347757623,
+      "type": "file"
+    },
+    {
+      "path": "src/api/ky.fakeStoreApi.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782347757941,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useGetProducts.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782347764453,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useGetCategories.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782347764689,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductFilterBar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782347765805,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductFilterCategory.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782347766503,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductFilterInput.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782347767101,
+      "type": "file"
+    },
+    {
+      "path": "src/screens/ReactPractice/ReactPracticeScreen.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782347773530,
+      "type": "file"
+    },
+    {
+      "path": "src/screens/ReactPractice/ReactPractice1Screen.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782347774429,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
