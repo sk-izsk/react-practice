@@ -11,6 +11,11 @@
   padding: 0;
 }
 
+.table-row-loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 @layer base {
   .theme {
     --font-heading: var(--font-sans);
