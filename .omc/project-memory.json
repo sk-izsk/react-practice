@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1782303583946,
+  "lastScanned": 1782424267328,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -79,7 +79,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 3,
-      "lastAccessed": 1782303583786,
+      "lastAccessed": 1782424267307,
       "keyFiles": [
         "favicon.svg",
         "icons.svg",
@@ -90,7 +90,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1782303583787,
+      "lastAccessed": 1782424267316,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -100,7 +100,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1782303583793,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
         "App.tsx",
         "AppLayout.tsx",
@@ -112,31 +112,42 @@
     "dist/assets": {
       "path": "dist/assets",
       "purpose": "Static assets",
-      "fileCount": 2,
-      "lastAccessed": 1782303583793,
+      "fileCount": 12,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
-        "index-ByAZfCzt.js",
-        "index-DGNrK5qb.css"
+        "CrudScreen-DvCJA7uw.js",
+        "CrudTableScreen-BTZhpkWW.js",
+        "ReactPractice1Screen-K53Jm-x8.js"
       ]
     },
     "src/api": {
       "path": "src/api",
       "purpose": "API routes",
-      "fileCount": 1,
-      "lastAccessed": 1782303583794,
+      "fileCount": 2,
+      "lastAccessed": 1782424267318,
       "keyFiles": [
+        "ky.fakeStoreApi.ts",
         "ky.jsonPlaceHolder.ts"
       ]
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
-      "fileCount": 11,
-      "lastAccessed": 1782303583795,
+      "fileCount": 16,
+      "lastAccessed": 1782424267319,
       "keyFiles": [
         "CommentDrawer.tsx",
         "CommentFilterBar.tsx",
         "EditCommentDrawer.tsx"
+      ]
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1782424267321,
+      "keyFiles": [
+        "utils.ts"
       ]
     }
   },
@@ -157,6 +168,72 @@
       "path": "src/components/ProductTitleRenderer.tsx",
       "accessCount": 3,
       "lastAccessed": 1782352723481,
+      "type": "file"
+    },
+    {
+      "path": "src/screens/ReactPractice/ReactPractice2Screen.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1782440597468,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useGetDummyProducts.ts",
+      "accessCount": 2,
+      "lastAccessed": 1782440598340,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/columns/useDummyProductColumn.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1782440599363,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useDeleteDummyProduct.ts",
+      "accessCount": 2,
+      "lastAccessed": 1782440608248,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductFilterBar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1782440609439,
+      "type": "file"
+    },
+    {
+      "path": "src/types/dummyJsonApi.ts",
+      "accessCount": 2,
+      "lastAccessed": 1782440611176,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductForm.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1782441571985,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductDummyTitleRenderer.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1782441572849,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductTableContainer.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1782441573136,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useEditDummyProducts.ts",
+      "accessCount": 2,
+      "lastAccessed": 1782441573939,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useAddDummyProducts.ts",
+      "accessCount": 2,
+      "lastAccessed": 1782441574057,
       "type": "file"
     },
     {
@@ -211,6 +288,60 @@
       "path": "src/screens/ReactPractice/ReactPractice1Screen.tsx",
       "accessCount": 1,
       "lastAccessed": 1782347774429,
+      "type": "file"
+    },
+    {
+      "path": "src/api/ky.dummyJson.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782430187314,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/web/useGetDummyProductCategory.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782430188597,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProductDummyActionRenderer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440600030,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductDeletePopConfirm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440601191,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductEditForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440601824,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyAddProductContainer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440602176,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/useTriggerError.ts",
+      "accessCount": 1,
+      "lastAccessed": 1782440609240,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyFilterCategory.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440610229,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyFilterInputField.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782440610575,
       "type": "file"
     }
   ],

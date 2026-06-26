@@ -3,6 +3,7 @@ import { Navigate } from 'react-router'
 
 const ReactPracticeScreen = lazy(() => import('../../screens/ReactPractice/ReactPracticeScreen'))
 const ReactPractice1Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice1Screen'))
+const ReactPractice2Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice2Screen'))
 
 export const reactPracticeRouter = () => {
   return [
@@ -17,6 +18,10 @@ export const reactPracticeRouter = () => {
         {
           path: '1',
           element: <ReactPractice1Screen />,
+        },
+        {
+          path: '2',
+          element: <ReactPractice2Screen />,
         },
       ],
     },
