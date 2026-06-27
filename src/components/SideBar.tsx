@@ -44,6 +44,10 @@ const items: MenuProps['items'] = [
         key: '/react-practice/2',
         label: <Link to="/react-practice/2">React Practice 2</Link>,
       },
+      {
+        key: '/react-practice/3',
+        label: <Link to="/react-practice/3">React Practice 3</Link>,
+      },
     ],
   },
 ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1782424267328,
+  "lastScanned": 1782510795180,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -79,7 +79,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 3,
-      "lastAccessed": 1782424267307,
+      "lastAccessed": 1782510795143,
       "keyFiles": [
         "favicon.svg",
         "icons.svg",
@@ -90,7 +90,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1782424267316,
+      "lastAccessed": 1782510795144,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -100,7 +100,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1782424267318,
+      "lastAccessed": 1782510795162,
       "keyFiles": [
         "App.tsx",
         "AppLayout.tsx",
@@ -112,20 +112,21 @@
     "dist/assets": {
       "path": "dist/assets",
       "purpose": "Static assets",
-      "fileCount": 12,
-      "lastAccessed": 1782424267318,
+      "fileCount": 21,
+      "lastAccessed": 1782510795163,
       "keyFiles": [
-        "CrudScreen-DvCJA7uw.js",
-        "CrudTableScreen-BTZhpkWW.js",
-        "ReactPractice1Screen-K53Jm-x8.js"
+        "CrudScreen-1QR1IW8A.js",
+        "CrudTableScreen-CP3ywaSc.js",
+        "PlusOutlined-DsmDhs9A.js"
       ]
     },
     "src/api": {
       "path": "src/api",
       "purpose": "API routes",
-      "fileCount": 2,
-      "lastAccessed": 1782424267318,
+      "fileCount": 3,
+      "lastAccessed": 1782510795164,
       "keyFiles": [
+        "ky.dummyJson.ts",
         "ky.fakeStoreApi.ts",
         "ky.jsonPlaceHolder.ts"
       ]
@@ -133,19 +134,19 @@
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
-      "fileCount": 16,
-      "lastAccessed": 1782424267319,
+      "fileCount": 26,
+      "lastAccessed": 1782510795166,
       "keyFiles": [
         "CommentDrawer.tsx",
         "CommentFilterBar.tsx",
-        "EditCommentDrawer.tsx"
+        "DummyAddProductContainer.tsx"
       ]
     },
     "src/lib": {
       "path": "src/lib",
       "purpose": "Library code",
       "fileCount": 1,
-      "lastAccessed": 1782424267321,
+      "lastAccessed": 1782510795168,
       "keyFiles": [
         "utils.ts"
       ]
@@ -342,6 +343,36 @@
       "path": "src/components/DummyFilterInputField.tsx",
       "accessCount": 1,
       "lastAccessed": 1782440610575,
+      "type": "file"
+    },
+    {
+      "path": "src/screens/ReactPractice/ReactPractice3Screen.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782526998461,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductTableShadcnContainer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782526998515,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductTableShadcn.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782526999136,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductRowActionMenu.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782526999404,
+      "type": "file"
+    },
+    {
+      "path": "src/components/DummyProductFilterBarShadcn.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1782527000136,
       "type": "file"
     }
   ],
