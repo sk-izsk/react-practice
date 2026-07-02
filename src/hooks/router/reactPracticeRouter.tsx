@@ -5,6 +5,8 @@ const ReactPracticeScreen = lazy(() => import('../../screens/ReactPractice/React
 const ReactPractice1Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice1Screen'))
 const ReactPractice2Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice2Screen'))
 const ReactPractice3Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice3Screen'))
+const ReactPractice4Screen = lazy(() => import('../../screens/ReactPractice/ReactPractice4Screen'))
+
 export const reactPracticeRouter = () => {
   return [
     {
@@ -26,6 +28,10 @@ export const reactPracticeRouter = () => {
         {
           path: '3',
           element: <ReactPractice3Screen />,
+        },
+        {
+          path: '4',
+          element: <ReactPractice4Screen />,
         },
       ],
     },
