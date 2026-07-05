@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { useSearchParams } from 'react-router'
 import { useGetDummyProducts } from '../hooks/web/useGetDummyProducts'
-import { DummyProductFilterBarShadcn } from './DummyProductFilterbarShadcn'
+import { DummyProductFilterBarShadcn } from './DummyProductFilterBarShadcn'
 import { DummyProductTableShadcn } from './DummyProductTableShadcn'
 
 interface Props {}

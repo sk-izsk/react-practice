@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1782510795180,
+  "lastScanned": 1783005381868,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -79,7 +79,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 3,
-      "lastAccessed": 1782510795143,
+      "lastAccessed": 1783005381799,
       "keyFiles": [
         "favicon.svg",
         "icons.svg",
@@ -90,7 +90,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1782510795144,
+      "lastAccessed": 1783005381800,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -100,7 +100,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1782510795162,
+      "lastAccessed": 1783005381837,
       "keyFiles": [
         "App.tsx",
         "AppLayout.tsx",
@@ -112,19 +112,19 @@
     "dist/assets": {
       "path": "dist/assets",
       "purpose": "Static assets",
-      "fileCount": 21,
-      "lastAccessed": 1782510795163,
+      "fileCount": 27,
+      "lastAccessed": 1783005381845,
       "keyFiles": [
-        "CrudScreen-1QR1IW8A.js",
-        "CrudTableScreen-CP3ywaSc.js",
-        "PlusOutlined-DsmDhs9A.js"
+        "CloseOutlined-ZcIB_Kl-.js",
+        "CrudScreen-brTxNfOf.js",
+        "CrudTableScreen-SqzTypZc.js"
       ]
     },
     "src/api": {
       "path": "src/api",
       "purpose": "API routes",
-      "fileCount": 3,
-      "lastAccessed": 1782510795164,
+      "fileCount": 4,
+      "lastAccessed": 1783005381848,
       "keyFiles": [
         "ky.dummyJson.ts",
         "ky.fakeStoreApi.ts",
@@ -134,247 +134,24 @@
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
-      "fileCount": 26,
-      "lastAccessed": 1782510795166,
+      "fileCount": 35,
+      "lastAccessed": 1783005381849,
       "keyFiles": [
-        "CommentDrawer.tsx",
-        "CommentFilterBar.tsx",
-        "DummyAddProductContainer.tsx"
+        "BreweryFilterBar.tsx",
+        "BreweryTableContainer.tsx",
+        "CommentDrawer.tsx"
       ]
     },
     "src/lib": {
       "path": "src/lib",
       "purpose": "Library code",
       "fileCount": 1,
-      "lastAccessed": 1782510795168,
+      "lastAccessed": 1783005381849,
       "keyFiles": [
         "utils.ts"
       ]
     }
   },
-  "hotPaths": [
-    {
-      "path": "src/components/ProductTable.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1782352830734,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/columns/useProductsColumn.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1782352723223,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductTitleRenderer.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1782352723481,
-      "type": "file"
-    },
-    {
-      "path": "src/screens/ReactPractice/ReactPractice2Screen.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1782440597468,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useGetDummyProducts.ts",
-      "accessCount": 2,
-      "lastAccessed": 1782440598340,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/columns/useDummyProductColumn.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1782440599363,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useDeleteDummyProduct.ts",
-      "accessCount": 2,
-      "lastAccessed": 1782440608248,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductFilterBar.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1782440609439,
-      "type": "file"
-    },
-    {
-      "path": "src/types/dummyJsonApi.ts",
-      "accessCount": 2,
-      "lastAccessed": 1782440611176,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductForm.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1782441571985,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductDummyTitleRenderer.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1782441572849,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductTableContainer.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1782441573136,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useEditDummyProducts.ts",
-      "accessCount": 2,
-      "lastAccessed": 1782441573939,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useAddDummyProducts.ts",
-      "accessCount": 2,
-      "lastAccessed": 1782441574057,
-      "type": "file"
-    },
-    {
-      "path": "src/types/fakeStoreApi.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782347757623,
-      "type": "file"
-    },
-    {
-      "path": "src/api/ky.fakeStoreApi.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782347757941,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useGetProducts.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782347764453,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useGetCategories.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782347764689,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductFilterBar.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782347765805,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductFilterCategory.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782347766503,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductFilterInput.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782347767101,
-      "type": "file"
-    },
-    {
-      "path": "src/screens/ReactPractice/ReactPracticeScreen.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782347773530,
-      "type": "file"
-    },
-    {
-      "path": "src/screens/ReactPractice/ReactPractice1Screen.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782347774429,
-      "type": "file"
-    },
-    {
-      "path": "src/api/ky.dummyJson.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782430187314,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/web/useGetDummyProductCategory.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782430188597,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ProductDummyActionRenderer.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440600030,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductDeletePopConfirm.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440601191,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductEditForm.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440601824,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyAddProductContainer.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440602176,
-      "type": "file"
-    },
-    {
-      "path": "src/hooks/useTriggerError.ts",
-      "accessCount": 1,
-      "lastAccessed": 1782440609240,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyFilterCategory.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440610229,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyFilterInputField.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782440610575,
-      "type": "file"
-    },
-    {
-      "path": "src/screens/ReactPractice/ReactPractice3Screen.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782526998461,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductTableShadcnContainer.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782526998515,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductTableShadcn.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782526999136,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductRowActionMenu.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782526999404,
-      "type": "file"
-    },
-    {
-      "path": "src/components/DummyProductFilterBarShadcn.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1782527000136,
-      "type": "file"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
