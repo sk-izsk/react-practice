@@ -2,6 +2,7 @@ import { Input, Select, Space, type SelectProps } from 'antd'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router'
 import { useDebounce } from '../hooks/useDebounce'
+import { useTriggerError } from '../hooks/useTriggerError'
 import { useGetBreweryMeta } from '../hooks/web/useGetBreweryMeta'
 
 interface Props {}
@@ -13,7 +14,11 @@ export const BreweryFilterBar: React.FC<Props> = () => {
   const stateParam = searchParams.get('state') || ''
   const [search, setSearch] = useState<string>(searchParams.get('name') || '')
   const debouncedSearch = useDebounce(search, 500)
-  const { data, isLoading: isMetaLoading } = useGetBreweryMeta({
+  const {
+    data,
+    isLoading: isMetaLoading,
+    isError,
+  } = useGetBreweryMeta({
     byCountry: countryParam || undefined,
   })
   const { types, states, countries } = useMemo(() => {
@@ -36,6 +41,12 @@ export const BreweryFilterBar: React.FC<Props> = () => {
 
     return { types, states, countries }
   }, [data])
+
+  useTriggerError({
+    isError,
+    title: 'Error',
+    description: 'Failed to fetch brewery metadata',
+  })
 
   const handleSelect = useCallback(
     (key: string, value: string) => {

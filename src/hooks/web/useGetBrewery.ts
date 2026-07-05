@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { breweryApi } from '../../api/ky.openBreweryDb'
 import type { Brewery } from '../../types/breweryApi'
 
-type BrewerySort = 'name:asc' | 'name:desc' | 'state_province:asc' | 'state_province:desc'
+export type BrewerySort = 'name:asc' | 'name:desc' | 'state_province:asc' | 'state_province:desc'
 
 interface GetBreweryFilterProps {
   search?: string

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1782918126746,
+  "lastScanned": 1783005381868,
   "projectRoot": "/Volumes/Mac Mini 1tb Ext/Projects/React/zsk-practice-react",
   "techStack": {
     "languages": [
@@ -79,7 +79,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 3,
-      "lastAccessed": 1782918126722,
+      "lastAccessed": 1783005381799,
       "keyFiles": [
         "favicon.svg",
         "icons.svg",
@@ -90,7 +90,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 2,
-      "lastAccessed": 1782918126728,
+      "lastAccessed": 1783005381800,
       "keyFiles": [
         "favicon.svg",
         "icons.svg"
@@ -100,7 +100,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1782918126729,
+      "lastAccessed": 1783005381837,
       "keyFiles": [
         "App.tsx",
         "AppLayout.tsx",
@@ -113,7 +113,7 @@
       "path": "dist/assets",
       "purpose": "Static assets",
       "fileCount": 27,
-      "lastAccessed": 1782918126731,
+      "lastAccessed": 1783005381845,
       "keyFiles": [
         "CloseOutlined-ZcIB_Kl-.js",
         "CrudScreen-brTxNfOf.js",
@@ -124,29 +124,29 @@
       "path": "src/api",
       "purpose": "API routes",
       "fileCount": 4,
-      "lastAccessed": 1782918126736,
+      "lastAccessed": 1783005381848,
       "keyFiles": [
-        "ky.coinGeckoApi.ts",
         "ky.dummyJson.ts",
-        "ky.fakeStoreApi.ts"
+        "ky.fakeStoreApi.ts",
+        "ky.jsonPlaceHolder.ts"
       ]
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
-      "fileCount": 33,
-      "lastAccessed": 1782918126737,
+      "fileCount": 35,
+      "lastAccessed": 1783005381849,
       "keyFiles": [
-        "CommentDrawer.tsx",
-        "CommentFilterBar.tsx",
-        "DummyAddProductContainer.tsx"
+        "BreweryFilterBar.tsx",
+        "BreweryTableContainer.tsx",
+        "CommentDrawer.tsx"
       ]
     },
     "src/lib": {
       "path": "src/lib",
       "purpose": "Library code",
       "fileCount": 1,
-      "lastAccessed": 1782918126738,
+      "lastAccessed": 1783005381849,
       "keyFiles": [
         "utils.ts"
       ]
