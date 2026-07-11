@@ -15,18 +15,27 @@ export const useEditDummyProduct = () => {
   return useMutation({
     mutationFn: editDummyProduct,
     onSuccess: (data) => {
-      queryClient.setQueryData(['dummyProducts', category], (oldData: DummyProductsResponse) => {
+      const updateProducts = (oldData: DummyProductsResponse | undefined) => {
         if (!oldData) {
           return oldData
         }
+
         return {
           ...oldData,
           products: oldData.products.map((product) =>
             product.id === data.id ? { ...product, ...data } : product,
           ),
-          total: oldData.total,
         }
-      })
+      }
+
+      queryClient.setQueryData(['dummyProducts', category], updateProducts)
+
+      queryClient.setQueriesData(
+        {
+          predicate: (query) => query.queryKey[0] === 'dummyProductsBigList',
+        },
+        updateProducts,
+      )
     },
   })
 }

@@ -1,0 +1,1 @@
+const deleteDummyProductBigList = (ids: number[]) => {}
